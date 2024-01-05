@@ -1,0 +1,11 @@
+nav > ul > li{
+    margin: 10px;
+    display: inline;
+}
+ul > li > a{
+    text-decoration: none;
+}
+div{
+    width: 40%;
+    margin-left: 37%;
+}
