@@ -1,0 +1,175 @@
+/* Universal style */
+* {    
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section style */
+
+.new-year-header{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(image/banner/Banner-Image.png);
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.new-year{
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    line-height: 95px;
+    padding: 200px 344px 130px 344px;
+}
+
+.new-year h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.new-year h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* main section style */
+
+/* holiday section style */
+section{
+    font-family: 'Roboto Slab', serif;
+    display: block;
+}
+.holiday-section{
+    display: block;
+    margin-left: 530px;
+    text-align: center;
+    width: 803px;
+    background-color: #FFF;
+    margin-top: 120px;
+}
+.holiday-section .new-year-image{
+    margin-top: 50px;
+}
+.holiday-section h2{
+    font-family: 'Roboto Slab', serif;
+    color: #F00;
+    text-align: center;
+    font-size: 52px;
+}
+
+.holiday-section h3{
+    color: #070211;
+    text-align: center;
+    font-size: 28px;
+}
+
+.holiday-section h4{
+    font-family: 'Roboto Slab', serif;
+    color: #F00;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px;
+}
+
+/* Welcome Section style */
+.welcome-section{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(image/Vectorrr.png);
+    height: 600px;
+    width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.welcome-section .welcome-image{
+    margin: 68px 138px 68px 100px;
+    position: absolute;
+}
+
+.welcome-section .welcome-content{
+    width: 697px;
+    float: left;
+    color: rgba(255, 255, 255, 0.80);
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.welcome-section .welcome-content h3{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; /* 137.5% */
+    letter-spacing: 7.04px;
+}
+
+.welcome-section .welcome-content p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.welcome-section .welcome-content .join-btn{
+    margin: 30px 0px 0px 30px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* venue section style */
+.venue-section{
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: auto;
+    margin-top: 120px;
+}
+
+.venue-section .venue-content{
+    text-align: center;
+    display: block;
+    padding-top: 100px;
+}
+.venue-section .venue-content p{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+
+.venue-section .venue-content span{
+    color: #070211;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.venue-section .venue-content .join-btn{
+    padding: 16px 32px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+    cursor: pointer;
+}
